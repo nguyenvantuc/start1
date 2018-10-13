@@ -1,0 +1,7 @@
+Go to
+https://www.nuget.org/packages/DlibDotNet/19.15.0.20181008
+Download package (to download file.nupkg, on the right of the screen)
+
+Then inside the console dotnet project:
+- Install the nuget package locally following the link below
+https://stackoverflow.com/questions/10240029/how-do-i-install-a-nuget-package-nupkg-file-locally
