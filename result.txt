@@ -1,0 +1,1777 @@
+Precision: 87.28290625893305%
+Recall: 85.25603653500463%
+f1_score: 84.82533283474304%
+Confusion Matrix:
+[[44345   987]
+ [11152 25848]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 87.5723881655891%
+Recall: 86.17548462323276%
+f1_score: 85.86919088202862%
+Confusion Matrix:
+[[43907  1425]
+ [ 9957 27043]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.44894903112123%
+Recall: 87.21639216829422%
+f1_score: 86.9641470989584%
+Confusion Matrix:
+[[44026  1306]
+ [ 9219 27781]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 87.86165389285537%
+Recall: 86.624884613516%
+f1_score: 86.35518462280346%
+Confusion Matrix:
+[[43839  1493]
+ [ 9519 27481]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 87.37043943391944%
+Recall: 85.98722246514113%
+f1_score: 85.67681402594434%
+Confusion Matrix:
+[[43829  1503]
+ [10034 26966]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 87.75045620390324%
+Recall: 86.93946460671428%
+f1_score: 86.74017961611439%
+Confusion Matrix:
+[[43289  2043]
+ [ 8710 28290]]
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 87.98577359507931%
+Recall: 86.624884613516%
+f1_score: 86.33784440141348%
+Confusion Matrix:
+[[44005  1327]
+ [ 9685 27315]]
+Generating test predictions...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.18813392253871%
+Recall: 86.58480299276101%
+f1_score: 86.26363153329517%
+Confusion Matrix:
+[[44293  1039]
+ [10006 26994]]
+[0 0 0 ... 1 1 0]
+Precision: 87.93929393422408%
+Recall: 86.73298353009766%
+f1_score: 86.47069461926192%
+Confusion Matrix:
+[[43832  1500]
+ [ 9423 27577]]
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 87.49417928892451%
+Recall: 86.14511975902444%
+f1_score: 85.8447555353557%
+Confusion Matrix:
+[[43835  1497]
+ [ 9910 27090]]
+workstation@workstation:~/Downloads/test$ python3 test_nn.py 
+/usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Using TensorFlow backend.
+[0. 0. 0. ... 1. 1. 0.]
+StandardScaler(copy=True, with_mean=True, with_std=True)
+[ 1.15511388e-03  7.24289366e-03  6.74760546e-02  4.61598854e-02
+ -3.15625216e-04 -5.75576187e-04 -4.06043165e-05 -4.86847497e-04
+ -3.63532416e-04 -1.36325733e-03 -1.16550770e-03  3.78036111e-04
+ -4.21607846e-04 -1.24824234e-04 -5.65947764e-04  1.44103061e-03
+ -1.63202085e-04  3.52538981e-04 -1.09686841e-03 -1.24066069e-03
+ -3.73470594e-04  1.07117397e-03 -1.36336761e-03 -8.55210208e-04
+ -1.01582140e-04 -1.55150971e-03 -5.78019713e-04  7.44645356e-05
+ -7.17381760e-04 -1.67540855e-03  5.51903803e-04  2.51283915e-04
+  1.08674574e-04  3.63211287e-04  1.12898995e-04 -1.31868183e-04
+ -1.85797819e-03 -1.85797819e-03 -5.34557779e-04  7.33041138e-04
+  4.37278490e-04]
+41
+2
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+2018-10-31 10:08:07.900163: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+2018-10-31 10:08:08.153259: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 10:08:08.177300: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 10:08:08.218249: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 10:08:08.301302: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 87.6026257812134%
+Recall: 86.24228732449109%
+f1_score: 85.94337166347773%
+Confusion Matrix:
+[[43881  1451]
+ [ 9876 27124]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.02112722436739%
+Recall: 86.54593596657436%
+f1_score: 86.24071352262234%
+Confusion Matrix:
+[[44125  1207]
+ [ 9870 27130]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 86.8307405156711%
+Recall: 85.79045814507118%
+f1_score: 85.52660578748373%
+Confusion Matrix:
+[[43284  2048]
+ [ 9651 27349]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.1280384697384%
+Recall: 86.82164893358598%
+f1_score: 86.54805537614358%
+Confusion Matrix:
+[[43997  1335]
+ [ 9515 27485]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 1]
+Precision: 87.19925916141669%
+Recall: 86.05766895010446%
+f1_score: 85.7855245098409%
+Confusion Matrix:
+[[43521  1811]
+ [ 9668 27332]]
+Training...
+^CTraceback (most recent call last):
+  File "test_nn.py", line 116, in <module>
+    result = Parallel(n_jobs=5)(delayed(train_model_nn)(X, y, seed) for seed in range(10))
+  File "/home/workstation/.local/lib/python3.6/site-packages/joblib/parallel.py", line 996, in __call__
+    self.retrieve()
+  File "/home/workstation/.local/lib/python3.6/site-packages/joblib/parallel.py", line 899, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/home/workstation/.local/lib/python3.6/site-packages/joblib/_parallel_backends.py", line 517, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 427, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.6/threading.py", line 295, in wait
+    waiter.acquire()
+KeyboardInterrupt
+workstation@workstation:~/Downloads/test$ python3 test_nn.py 
+/usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Using TensorFlow backend.
+[0. 0. 0. ... 0. 0. 1.]
+StandardScaler(copy=True, with_mean=True, with_std=True)
+[ 2.44897100e-06  8.45898204e-06  2.65347450e-03  3.24017623e-03
+ -6.33118367e-07 -7.15147492e-07  7.79603636e-11 -9.88129959e-11
+  1.22120704e-09 -9.48439773e-06 -3.63362538e-08  4.87377841e-13
+  1.02915896e-11 -3.79002198e-07 -6.50421782e-07  6.62882422e-10
+  4.17529500e-09  6.27612046e-11  1.97376599e-09 -4.63783769e-06
+ -7.33313930e-17 -1.94672101e-16 -4.49570418e-06  5.88770360e-05
+ -6.42909716e-04  1.34836901e-03 -1.89541914e-06 -5.25600634e-07
+  3.88279020e-05  9.20838689e-12 -5.32119521e-05 -6.44433526e-04
+ -5.60520168e-05 -4.30902673e-05 -8.84509232e-05 -4.17991442e-05
+ -1.00224504e-05 -1.00224504e-05  4.48464291e-05 -5.44604383e-05
+ -5.00029898e-05]
+41
+2
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+2018-10-31 11:03:48.591178: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+2018-10-31 11:03:48.673431: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 11:03:48.760196: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 11:03:48.822028: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 11:03:48.846271: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Generating test predictions...
+[1 1 1 ... 1 1 1]
+Precision: 37.10661858715892%
+Recall: 36.3418840790944%
+f1_score: 36.045014588662696%
+Confusion Matrix:
+[[13546 31786]
+ [20625 16375]]
+Training...
+Generating test predictions...
+[0 0 0 ... 0 0 0]
+Precision: 65.55956792774192%
+Recall: 65.75693533498517%
+f1_score: 65.40014693680878%
+Confusion Matrix:
+[[33792 11540]
+ [16653 20347]]
+Training...
+Generating test predictions...
+Generating test predictions...
+[1 1 1 ... 0 0 1]
+Precision: 45.841029456896585%
+Recall: 44.20638390905116%
+f1_score: 42.08471863960868%
+Confusion Matrix:
+[[12074 33258]
+ [12678 24322]]
+[1 1 1 ... 0 0 0]
+Precision: 47.896760171876814%
+Training...
+Recall: 47.02424330758393%
+f1_score: 47.07835220985986%
+Confusion Matrix:
+[[19826 25506]
+ [18110 18890]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 1]
+Precision: 55.44014449607987%
+Recall: 55.086722052178985%
+f1_score: 55.19252993092484%
+Confusion Matrix:
+[[25363 19969]
+ [17009 19991]]
+Training...
+^CTraceback (most recent call last):
+  File "test_nn.py", line 116, in <module>
+    result = Parallel(n_jobs=5)(delayed(train_model_nn)(X, y, seed) for seed in range(10))
+  File "/home/workstation/.local/lib/python3.6/site-packages/joblib/parallel.py", line 996, in __call__
+    self.retrieve()
+  File "/home/workstation/.local/lib/python3.6/site-packages/joblib/parallel.py", line 899, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/home/workstation/.local/lib/python3.6/site-packages/joblib/_parallel_backends.py", line 517, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/usr/lib/python3.6/concurrent/futures/_base.py", line 427, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.6/threading.py", line 295, in wait
+    waiter.acquire()
+KeyboardInterrupt
+workstation@workstation:~/Downloads/test$ python3 test_nn.py 
+/usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Using TensorFlow backend.
+[0. 0. 0. ... 0. 1. 0.]
+StandardScaler(copy=True, with_mean=True, with_std=True)
+[ 1.15511388e-03  7.24289366e-03  6.74760546e-02  4.61598854e-02
+ -3.15625216e-04 -5.75576187e-04 -4.06043165e-05 -4.86847497e-04
+ -3.63532416e-04 -1.36325733e-03 -1.16550770e-03  3.78036111e-04
+ -4.21607846e-04 -1.24824234e-04 -5.65947764e-04  1.44103061e-03
+ -1.63202085e-04  3.52538981e-04 -1.09686841e-03 -1.24066069e-03
+ -3.73470594e-04  1.07117397e-03 -1.36336761e-03 -8.55210208e-04
+ -1.01582140e-04 -1.55150971e-03 -5.78019713e-04  7.44645356e-05
+ -7.17381760e-04 -1.67540855e-03  5.51903803e-04  2.51283915e-04
+  1.08674574e-04  3.63211287e-04  1.12898995e-04 -1.31868183e-04
+ -1.85797819e-03 -1.85797819e-03 -5.34557779e-04  7.33041138e-04
+  4.37278490e-04]
+41
+2
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+Training...
+/home/workstation/.local/lib/python3.6/site-packages/joblib/externals/loky/backend/popen_loky_posix.py:97: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  if remaining <= 0:
+2018-10-31 11:45:02.267844: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 11:45:02.299360: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 11:45:02.302791: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 11:45:02.333178: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-10-31 11:45:02.352973: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.83395248027517%
+Recall: 87.94150512558907%
+f1_score: 87.7527189314965%
+Confusion Matrix:
+[[43760  1572]
+ [ 8356 28644]]
+Generating test predictions...
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 86.77521562453924%
+Recall: 83.78516251275325%
+f1_score: 83.13990956947528%
+Confusion Matrix:
+[[44793   539]
+ [12811 24189]]
+[0 0 0 ... 1 1 0]
+Precision: 87.4077638589816%
+Recall: 85.23295923820629%
+f1_score: 84.78037190628164%
+Confusion Matrix:
+Training...
+[[44489   843]
+ [11315 25685]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.24751320626378%
+Recall: 86.5325754263227%
+f1_score: 86.19482831244454%
+Confusion Matrix:
+[[44406   926]
+ [10162 26838]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.47361403421016%
+Recall: 86.92367487732595%
+f1_score: 86.62086688503942%
+Confusion Matrix:
+[[44338   994]
+ [ 9772 27228]]
+Training...
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 87.5076911549688%
+Recall: 85.33984356021959%
+f1_score: 84.89302799334855%
+Confusion Matrix:
+[[44515   817]
+ [11253 25747]]
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 87.51175794105845%
+Recall: 85.37871058640626%
+f1_score: 84.93844868979383%
+Confusion Matrix:
+[[44492   840]
+ [11198 25802]]
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.15914603818811%
+Recall: 86.76942136714764%
+f1_score: 86.48290769305123%
+Confusion Matrix:
+[[44089  1243]
+ [ 9650 27350]]
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.25491358954052%
+Recall: 86.77670893455765%
+f1_score: 86.47855007428387%
+Confusion Matrix:
+[[44203  1129]
+ [ 9758 27242]]
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.13714686129516%
+Recall: 86.41961813146771%
+f1_score: 86.07746737988109%
+Confusion Matrix:
+[[44373   959]
+ [10222 26778]]
+
+
+
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[0. 0. 0. ... 1. 1. 0.]
+[[45047   285]
+ [15047 21953]]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+[[45047   285]
+ [15047 21953]]
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+[0. 0. 0. ... 1. 1. 0.]
+Accuracy: 81.37783607831706%
+Precision: 98.71840992895045%
+Recall: 59.332432432432434%
+f1_score: 74.11796481987913%
+Confusion Matrix:
+[[45047   285]
+ [15047 21953]]
+
+Testing: 0, acc: 0.7449108487597703
+Testing: 50, acc: 0.8157095661479061
+Testing: 100, acc: 0.8182480687957223
+Testing: 150, acc: 0.8208594471176385
+Testing: 200, acc: 0.8220497497946049
+Testing: 250, acc: 0.8251469659431303
+Testing: 300, acc: 0.8199727930827553
+Testing: 350, acc: 0.8277219064279965
+Testing: 400, acc: 0.824442501094221
+Testing: 450, acc: 0.8329446630736386
+Testing: 500, acc: 0.8349001603286549
+Testing: 550, acc: 0.8337098576516885
+Testing: 600, acc: 0.8425278142177867
+Testing: 650, acc: 0.8341714035876551
+Testing: 700, acc: 0.8365398629959045
+Testing: 750, acc: 0.8544794247701843
+Testing: 800, acc: 0.8561069814917507
+Testing: 850, acc: 0.8553660788050674
+Testing: 900, acc: 0.8542729436935677
+Testing: 950, acc: 0.857588786865117
+Testing: 1000, acc: 0.8555968517730508
+Testing: 1050, acc: 0.8538721274860177
+Testing: 1100, acc: 0.8589126949446001
+Testing: 1150, acc: 0.8578681436158336
+Testing: 1200, acc: 0.8493781275831853
+Testing: 1250, acc: 0.8447748141692029
+Testing: 1300, acc: 0.8593013652064667
+Testing: 1350, acc: 0.8638439488920324
+Testing: 1400, acc: 0.8584025652259002
+Testing: 1450, acc: 0.8681193217725649
+Testing: 1500, acc: 0.8669776028783318
+Testing: 1550, acc: 0.863018024585566
+Testing: 1600, acc: 0.8567628625586505
+Testing: 1650, acc: 0.8588762571075501
+Testing: 1700, acc: 0.8706456784746978
+Testing: 1750, acc: 0.8662974299200653
+Testing: 1800, acc: 0.8722610892505808
+Testing: 1850, acc: 0.8602366030240831
+Testing: 1900, acc: 0.8560341058176506
+Testing: 1950, acc: 0.8659694893866153
+Testing: 2000, acc: 0.8568721760698005
+Testing: 2050, acc: 0.8686537433826315
+Testing: 2100, acc: 0.8619248894740661
+Testing: 2150, acc: 0.8586576300852501
+Testing: 2200, acc: 0.8548802409777342
+Testing: 2250, acc: 0.8726861973494974
+Testing: 2300, acc: 0.8700140892991646
+Testing: 2350, acc: 0.8611961327330663
+Testing: 2400, acc: 0.8640868678056991
+Testing: 2450, acc: 0.8659694893866153
+Testing: 2500, acc: 0.8704391973980811
+Testing: 2550, acc: 0.8565928193190839
+Testing: 2600, acc: 0.871131516302031
+Testing: 2650, acc: 0.8597386192510665
+Testing: 2700, acc: 0.8543093815306176
+Testing: 2750, acc: 0.8556575815014674
+Testing: 2800, acc: 0.8730870135570472
+Testing: 2850, acc: 0.8708521595513143
+Testing: 2900, acc: 0.8753097216170967
+Testing: 2950, acc: 0.8633095272819659
+Testing: 3000, acc: 0.8685201379801148
+Testing: 3050, acc: 0.8611718408416996
+Testing: 3100, acc: 0.8668925812585485
+Testing: 3150, acc: 0.8716902298034642
+Testing: 3200, acc: 0.8620584948765828
+Testing: 3250, acc: 0.8637346353808825
+Testing: 3300, acc: 0.867536316379765
+Testing: 3350, acc: 0.8591070300755334
+Testing: 3400, acc: 0.8661759704632319
+Testing: 3450, acc: 0.8679492785329983
+Testing: 3500, acc: 0.8733299324707139
+Testing: 3550, acc: 0.8607224408514164
+Testing: 3600, acc: 0.8672691055747317
+Testing: 3650, acc: 0.8759656026839967
+Testing: 3700, acc: 0.8646941650898656
+Testing: 3750, acc: 0.869333916340898
+Testing: 3800, acc: 0.8589369868359668
+Testing: 3850, acc: 0.864269056990949
+Testing: 3900, acc: 0.8672569596290484
+Testing: 3950, acc: 0.8589977165643834
+Testing: 4000, acc: 0.8605038138291164
+Testing: 4050, acc: 0.8638560948377157
+Testing: 4100, acc: 0.8694553757977314
+Testing: 4150, acc: 0.8555604139360008
+Testing: 4200, acc: 0.8576859544305837
+Testing: 4250, acc: 0.8504834086403684
+Testing: 4300, acc: 0.866321721811432
+Testing: 4350, acc: 0.8615848029949329
+Testing: 4400, acc: 0.872382548707414
+Testing: 4450, acc: 0.8671719380092651
+Testing: 4500, acc: 0.8651921488628822
+Testing: 4550, acc: 0.8593620949348834
+Testing: 4600, acc: 0.8569936355266338
+Testing: 4650, acc: 0.87568624593328
+Testing: 4700, acc: 0.8593742408805667
+Testing: 4750, acc: 0.8623014137902494
+Testing: 4800, acc: 0.8705970946919644
+Testing: 4850, acc: 0.8538721274860177
+Testing: 4900, acc: 0.8655079434506487
+Testing: 4950, acc: 0.8634917164672158
+Testing: 5000, acc: 0.8735364135473305
+Testing: 5050, acc: 0.8685565758171648
+Testing: 5100, acc: 0.8658358839840987
+Testing: 5150, acc: 0.8716173541293643
+Testing: 5200, acc: 0.8617427002888162
+Testing: 5250, acc: 0.8668318515301319
+Testing: 5300, acc: 0.854248651802201
+Testing: 5350, acc: 0.8581232084751835
+Testing: 5400, acc: 0.8684472623060149
+Testing: 5450, acc: 0.8612690084071662
+Testing: 5500, acc: 0.8613297381355829
+Testing: 5550, acc: 0.8638925326747657
+Testing: 5600, acc: 0.8665160569423652
+Testing: 5650, acc: 0.8537263761378178
+Testing: 5700, acc: 0.8689816839160814
+Testing: 5750, acc: 0.8637832191636158
+Testing: 5800, acc: 0.8571636787662005
+Testing: 5850, acc: 0.8551595977284508
+Testing: 5900, acc: 0.8626657921607493
+Testing: 5950, acc: 0.8531190788536512
+Testing: 6000, acc: 0.8598722246535833
+Testing: 6050, acc: 0.8673176893574651
+Testing: 6100, acc: 0.8636496137610992
+Testing: 6150, acc: 0.852633241026318
+Testing: 6200, acc: 0.8649856677862655
+Testing: 6250, acc: 0.8669290190955985
+Testing: 6300, acc: 0.8715566244009475
+Testing: 6350, acc: 0.8607588786884663
+Testing: 6400, acc: 0.8590098625100667
+Testing: 6450, acc: 0.8648763542751156
+Testing: 6500, acc: 0.8721639216851141
+Testing: 6550, acc: 0.8521352572533014
+Testing: 6600, acc: 0.8746052567674636
+Testing: 6650, acc: 0.8715323325095808
+Testing: 6700, acc: 0.8688845163506147
+Testing: 6750, acc: 0.8585604625197835
+Testing: 6800, acc: 0.862362143518666
+Testing: 6850, acc: 0.865665840744532
+Testing: 6900, acc: 0.8658966137125154
+Testing: 6950, acc: 0.8678399650218483
+Testing: 7000, acc: 0.8519773599594181
+Testing: 7050, acc: 0.8582203760406503
+Testing: 7100, acc: 0.8715444784552642
+Testing: 7150, acc: 0.8610139435478164
+Testing: 7200, acc: 0.8629087110744159
+Testing: 7250, acc: 0.8525725112979013
+Testing: 7300, acc: 0.8534591653327845
+Testing: 7350, acc: 0.87608706214083
+Testing: 7400, acc: 0.8619977651481662
+Testing: 7450, acc: 0.8580867706381335
+Testing: 7500, acc: 0.8732934946336639
+Testing: 7550, acc: 0.8679128406959483
+Testing: 7600, acc: 0.8599815381647332
+Testing: 7650, acc: 0.857843851724467
+Testing: 7700, acc: 0.8613783219183162
+Testing: 7750, acc: 0.8674148569229317
+Testing: 7800, acc: 0.8632366516078659
+Testing: 7850, acc: 0.8665403488337319
+Testing: 7900, acc: 0.8754433270196135
+Testing: 7950, acc: 0.862799397563266
+Testing: 8000, acc: 0.8725161541099307
+Testing: 8050, acc: 0.8548680950320509
+Testing: 8100, acc: 0.8709736190081476
+Testing: 8150, acc: 0.8691760190470147
+Testing: 8200, acc: 0.8761477918692466
+Testing: 8250, acc: 0.8685930136542148
+Testing: 8300, acc: 0.8537263761378178
+Testing: 8350, acc: 0.863054462422616
+Testing: 8400, acc: 0.8579774571269836
+Testing: 8450, acc: 0.8601151435672498
+Testing: 8500, acc: 0.8787834620818055
+Testing: 8550, acc: 0.8662245542459653
+Testing: 8600, acc: 0.8756619540419134
+Testing: 8650, acc: 0.8695039595804647
+Testing: 8700, acc: 0.8652650245369822
+Testing: 8750, acc: 0.8637832191636158
+Testing: 8800, acc: 0.8740222513746637
+Testing: 8850, acc: 0.864050429968649
+Testing: 8900, acc: 0.8555239760989508
+Testing: 8950, acc: 0.8619370354197495
+Testing: 9000, acc: 0.8601394354586165
+Testing: 9050, acc: 0.8636131759240492
+Testing: 9100, acc: 0.8563984841881506
+Testing: 9150, acc: 0.8600179760017832
+Testing: 9200, acc: 0.8701841325380072
+Testing: 9250, acc: 0.8664067434312153
+Testing: 9300, acc: 0.8596900354683332
+Testing: 9350, acc: 0.8671476461178984
+Testing: 9400, acc: 0.8727712189692807
+Testing: 9450, acc: 0.8620706408222661
+Testing: 9500, acc: 0.8631394840423993
+Testing: 9550, acc: 0.8618155759629161
+Testing: 9600, acc: 0.8580624787467669
+Testing: 9650, acc: 0.8586940679223001
+Testing: 9700, acc: 0.8645484137416656
+Testing: 9750, acc: 0.8668804353128652
+Testing: 9800, acc: 0.8594835543917166
+Testing: 9850, acc: 0.8593742408805667
+Testing: 9900, acc: 0.8541271923453677
+Testing: 9950, acc: 0.865884467766832
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.0145657720186%
+Recall: 86.66010785599767%
+f1_score: 86.3750384561303%
+Confusion Matrix:
+[[44008  1324]
+ [ 9659 27341]]
+
+
+Testing: 0, acc: 0.7574819025420177
+[0 0 0 ... 1 1 0]
+Precision: 82.24716749172623%
+Recall: 75.74819025409319%
+f1_score: 73.6339697406339%
+Testing: 50, acc: 0.8170091823360225
+[0 0 0 ... 1 1 0]
+Precision: 84.79548887795147%
+Recall: 81.70091823349365%
+f1_score: 80.90260031125335%
+Testing: 100, acc: 0.8206165282039718
+[0 0 0 ... 1 1 0]
+Precision: 84.51465700946082%
+Recall: 82.06165282028859%
+f1_score: 81.39930595570357%
+Testing: 150, acc: 0.8250619443251569
+[0 0 0 ... 1 1 0]
+Precision: 84.5317829511279%
+Recall: 82.5061944322985%
+f1_score: 81.94564688118906%
+Testing: 200, acc: 0.8222562308712215
+[0 0 0 ... 1 1 0]
+Precision: 84.81278098347235%
+Recall: 82.22562308701356%
+f1_score: 81.54960010320134%
+Testing: 250, acc: 0.8299203225974032
+[0 0 0 ... 1 1 0]
+Precision: 85.31132359419243%
+Recall: 82.99203225963173%
+f1_score: 82.40605892400097%
+Testing: 300, acc: 0.8339163387283051
+[0 0 0 ... 1 1 0]
+Precision: 85.70242316177719%
+Recall: 83.39163387261333%
+f1_score: 82.82850045881305%
+Testing: 350, acc: 0.8340863819660618
+[0 0 0 ... 1 1 0]
+Precision: 85.84080988767388%
+Recall: 83.40863819656998%
+f1_score: 82.82686820531869%
+Testing: 400, acc: 0.8420662682818201
+[0 0 0 ... 1 1 0]
+Precision: 86.40387558359308%
+Recall: 84.20662682796483%
+f1_score: 83.70270620974264%
+Testing: 450, acc: 0.8415682845088035
+[0 0 0 ... 1 1 0]
+Precision: 86.58870259162622%
+Recall: 84.15682845066317%
+f1_score: 83.61488520114044%
+Testing: 500, acc: 0.8582203760406503
+[0 0 0 ... 1 1 0]
+Precision: 87.46231552895401%
+Recall: 85.82203760384783%
+f1_score: 85.46883318742498%
+Testing: 550, acc: 0.8564713598622505
+[0 0 0 ... 1 1 0]
+Precision: 87.47408629799736%
+Recall: 85.64713598600787%
+f1_score: 85.26086270836338%
+Testing: 600, acc: 0.8545158626072343
+[0 0 0 ... 1 1 0]
+Precision: 87.3869897367168%
+Recall: 85.45158626050625%
+f1_score: 85.04211222028546%
+Testing: 650, acc: 0.8505684302601517
+[0 0 0 ... 1 1 0]
+Precision: 87.28311320853133%
+Recall: 85.05684302579799%
+f1_score: 84.58896647457317%
+Testing: 700, acc: 0.8502526356723852
+[0 0 0 ... 1 1 0]
+Precision: 87.29808294381948%
+Recall: 85.02526356702133%
+f1_score: 84.5493439546896%
+Testing: 750, acc: 0.8475319438393191
+[0 0 0 ... 1 1 0]
+Precision: 87.11832444551774%
+Recall: 84.75319438371471%
+f1_score: 84.2511034614234%
+Testing: 800, acc: 0.8615848029949329
+[0 0 0 ... 1 1 0]
+Precision: 87.94498469121281%
+Recall: 86.15848029927609%
+f1_score: 85.79747463934085%
+Testing: 850, acc: 0.8657022785815821
+[0 0 0 ... 1 1 0]
+Precision: 88.19870476836871%
+Recall: 86.57022785794102%
+f1_score: 86.2452162906846%
+Testing: 900, acc: 0.8733542243620805
+[0 0 0 ... 1 1 0]
+Precision: 88.56361933336316%
+Recall: 87.33542243599086%
+f1_score: 87.0870664980698%
+Testing: 950, acc: 0.8624957489211827
+[0 0 0 ... 1 1 0]
+Precision: 88.08504720775902%
+Recall: 86.24957489190108%
+f1_score: 85.8854641155289%
+Testing: 1000, acc: 0.8548680950320509
+[0 0 0 ... 1 1 0]
+Precision: 87.62635005755251%
+Recall: 85.48680950298791%
+f1_score: 85.05041537060927%
+Testing: 1050, acc: 0.8350459116768548
+[0 0 0 ... 1 1 0]
+Precision: 86.5374631186323%
+Recall: 83.5045911674683%
+f1_score: 82.835835635012%
+Testing: 1100, acc: 0.8611354030046496
+[0 0 0 ... 1 1 0]
+Precision: 87.95990715711417%
+Recall: 86.11354030024778%
+f1_score: 85.74276806991186%
+Testing: 1150, acc: 0.8595078462830833
+[0 0 0 ... 1 1 0]
+Precision: 87.88428859467457%
+Recall: 85.95078462809114%
+f1_score: 85.56189483449506%
+Testing: 1200, acc: 0.8735728513843805
+[0 0 0 ... 1 1 0]
+Precision: 88.63331557906295%
+Recall: 87.35728513822086%
+f1_score: 87.10327664210352%
+Testing: 1250, acc: 0.870803575768581
+[0 0 0 ... 1 1 0]
+Precision: 88.48439322923002%
+Recall: 87.08035757664092%
+f1_score: 86.80150244268265%
+Testing: 1300, acc: 0.8759291648469467
+[0 0 0 ... 1 1 0]
+Precision: 88.82953521032418%
+Recall: 87.59291648447748%
+f1_score: 87.35055101204989%
+Testing: 1350, acc: 0.8585847544111501
+[0 0 0 ... 1 1 0]
+Precision: 87.85909386281628%
+Recall: 85.85847544089783%
+f1_score: 85.45679000622333%
+Testing: 1400, acc: 0.8692488947211147
+[0 0 0 ... 1 1 0]
+Precision: 88.45383217461405%
+Recall: 86.92488947189429%
+f1_score: 86.62484662322595%
+Testing: 1450, acc: 0.8606252732859497
+[0 0 0 ... 1 1 0]
+Precision: 87.94384331788808%
+Recall: 86.0625273283778%
+f1_score: 85.68508184472442%
+Testing: 1500, acc: 0.867827819076165
+[0 0 0 ... 1 1 0]
+Precision: 88.32141231591432%
+Recall: 86.78278190739931%
+f1_score: 86.47681999457484%
+Testing: 1550, acc: 0.8462687654882526
+[0 0 0 ... 1 1 0]
+Precision: 87.12451497194465%
+Recall: 84.62687654860808%
+f1_score: 84.09954660351183%
+Testing: 1600, acc: 0.8644633921218823
+[0 0 0 ... 1 1 0]
+Precision: 88.1669412847792%
+Recall: 86.44633921197105%
+f1_score: 86.10474541463961%
+Testing: 1650, acc: 0.8488315600274354
+[0 0 0 ... 1 1 0]
+Precision: 87.28884848564147%
+Recall: 84.88315600252636%
+f1_score: 84.3816970732541%
+Testing: 1700, acc: 0.852888305885668
+[0 0 0 ... 1 1 0]
+Precision: 87.55561085045682%
+Recall: 85.28883058834961%
+f1_score: 84.82603125981083%
+Testing: 1750, acc: 0.8718238352059808
+[0 0 0 ... 1 1 0]
+Precision: 88.61558437839494%
+Recall: 87.1823835203809%
+f1_score: 86.90287032484775%
+Testing: 1800, acc: 0.869370354177948
+[0 0 0 ... 1 1 0]
+Precision: 88.46687227032099%
+Recall: 86.93703541757762%
+f1_score: 86.63727128962331%
+Testing: 1850, acc: 0.8703055919955645
+[0 0 0 ... 1 1 0]
+Precision: 88.48787632623993%
+Recall: 87.03055919933927%
+f1_score: 86.74321035304004%
+Testing: 1900, acc: 0.85931351115215
+[0 0 0 ... 1 1 0]
+Precision: 87.83974409345686%
+Recall: 85.93135111499781%
+f1_score: 85.54507973755857%
+Testing: 1950, acc: 0.8550138463802509
+[0 0 0 ... 1 1 0]
+Precision: 87.60586237983115%
+Recall: 85.5013846378079%
+f1_score: 85.07044556327286%
+Testing: 2000, acc: 0.8739615216462471
+[0 0 0 ... 1 1 0]
+Precision: 88.75673977729997%
+Recall: 87.39615216440752%
+f1_score: 87.13236760956042%
+Testing: 2050, acc: 0.8638196570006658
+[0 0 0 ... 1 1 0]
+Precision: 88.09683953127733%
+Recall: 86.38196569984939%
+f1_score: 86.03880790610737%
+Testing: 2100, acc: 0.8513336248382016
+[0 0 0 ... 1 1 0]
+Precision: 87.40091918221563%
+Recall: 85.13336248360297%
+f1_score: 84.66324272912016%
+Testing: 2150, acc: 0.85982364087085
+[0 0 0 ... 1 1 0]
+Precision: 87.88423585595935%
+Recall: 85.9823640868678%
+f1_score: 85.59899829097344%
+Testing: 2200, acc: 0.837985230532221
+[0 0 0 ... 1 1 0]
+Precision: 86.6133792859548%
+Recall: 83.7985230530049%
+f1_score: 83.17982911973782%
+Testing: 2250, acc: 0.8803017052929458
+[0 0 0 ... 1 1 0]
+Precision: 89.09819138824506%
+Recall: 88.0301705290774%
+f1_score: 87.82056931875633%
+Testing: 2300, acc: 0.8655322353420154
+[0 0 0 ... 1 1 0]
+Precision: 88.21461719670218%
+Recall: 86.55322353398435%
+f1_score: 86.22326241193178%
+Testing: 2350, acc: 0.8646577272528156
+[0 0 0 ... 1 1 0]
+Precision: 88.16782224895947%
+Recall: 86.46577272506437%
+f1_score: 86.12733410110681%
+Testing: 2400, acc: 0.8546251761183843
+[0 0 0 ... 1 1 0]
+Precision: 87.57983031124368%
+Recall: 85.46251761162124%
+f1_score: 85.02811580752653%
+Testing: 2450, acc: 0.8645362677959822
+[0 0 0 ... 1 1 0]
+Precision: 88.12862631454786%
+Recall: 86.45362677938104%
+f1_score: 86.11834850398972%
+Testing: 2500, acc: 0.8415197007260702
+[0 0 0 ... 1 1 0]
+Precision: 86.89197683090221%
+Recall: 84.15197007238984%
+f1_score: 83.56440358856926%
+Testing: 2550, acc: 0.8700019433534812
+[0 0 0 ... 1 1 0]
+Precision: 88.47991647622204%
+Recall: 87.00019433513093%
+f1_score: 86.70897180240863%
+Testing: 2600, acc: 0.8618034300172328
+[0 0 0 ... 1 1 0]
+Precision: 87.97051147899445%
+Recall: 86.1803430015061%
+f1_score: 85.81966629510946%
+Testing: 2650, acc: 0.8695646893088813
+[0 0 0 ... 1 1 0]
+Precision: 88.45577111238589%
+Recall: 86.95646893067094%
+f1_score: 86.66130315658276%
+Testing: 2700, acc: 0.8618520137999661
+[0 0 0 ... 1 1 0]
+Precision: 87.9570032475551%
+Recall: 86.18520137977943%
+f1_score: 85.82717973325076%
+Testing: 2750, acc: 0.8531069329079679
+[0 0 0 ... 1 1 0]
+Precision: 87.4795355221322%
+Recall: 85.31069329057961%
+f1_score: 84.8624341413773%
+Testing: 2800, acc: 0.85945926250035
+[0 0 0 ... 1 1 0]
+Precision: 87.82049125254026%
+Recall: 85.9459262498178%
+f1_score: 85.56482291134427%
+Testing: 2850, acc: 0.8803502890756791
+[0 0 0 ... 1 1 0]
+Precision: 89.09044366637595%
+Recall: 88.03502890735072%
+f1_score: 87.8271454965015%
+Testing: 2900, acc: 0.8634309867387991
+[0 0 0 ... 1 1 0]
+Precision: 88.06441933483855%
+Recall: 86.34309867366274%
+f1_score: 85.99767156811579%
+Testing: 2950, acc: 0.8749210513552302
+[0 0 0 ... 1 1 0]
+Precision: 88.75240363754855%
+Recall: 87.49210513530583%
+f1_score: 87.24391777838389%
+Testing: 3000, acc: 0.8734271000361805
+[0 0 0 ... 1 1 0]
+Precision: 88.63578114771263%
+Recall: 87.34271000340087%
+f1_score: 87.08607073475333%
+Testing: 3050, acc: 0.8688359325678814
+[0 0 0 ... 1 1 0]
+Precision: 88.40374544239741%
+Recall: 86.88359325657096%
+f1_score: 86.58335432876244%
+Testing: 3100, acc: 0.8566049652647673
+[0 0 0 ... 1 1 0]
+Precision: 87.65426126407625%
+Recall: 85.66049652625954%
+f1_score: 85.25155280133461%
+Testing: 3150, acc: 0.8727712189692807
+[0 0 0 ... 1 1 0]
+Precision: 88.58936574903225%
+Recall: 87.27712189671088%
+f1_score: 87.01610199140106%
+Testing: 3200, acc: 0.8717266676405142
+[0 0 0 ... 1 1 0]
+Precision: 88.55404065953874%
+Recall: 87.17266676383423%
+f1_score: 86.8995644722229%
+Testing: 3250, acc: 0.8839819268342711
+[0 0 0 ... 1 1 0]
+Precision: 89.30780900599522%
+Recall: 88.39819268328232%
+f1_score: 88.21711074287849%
+Testing: 3300, acc: 0.850981392413385
+[0 0 0 ... 1 1 0]
+Precision: 87.29146006324483%
+Recall: 85.09813924112132%
+f1_score: 84.63682064297413%
+Testing: 3350, acc: 0.8702327163214645
+[0 0 0 ... 1 1 0]
+Precision: 88.40349286517855%
+Recall: 87.02327163192926%
+f1_score: 86.74580891813956%
+Testing: 3400, acc: 0.8552932031309675
+[0 0 0 ... 1 1 0]
+Precision: 87.55256308674947%
+Recall: 85.52932031287956%
+f1_score: 85.11080187703473%
+Testing: 3450, acc: 0.8684715541973815
+[0 0 0 ... 1 1 0]
+Precision: 88.30469051442941%
+Recall: 86.84715541952096%
+f1_score: 86.55399324238026%
+Testing: 3500, acc: 0.8609896516564497
+[0 0 0 ... 1 1 0]
+Precision: 87.8817184738371%
+Recall: 86.09896516542777%
+f1_score: 85.73622527039073%
+Testing: 3550, acc: 0.8599936841104165
+[0 0 0 ... 1 1 0]
+Precision: 87.82208570971875%
+Recall: 85.99936841082446%
+f1_score: 85.62739995016261%
+Testing: 3600, acc: 0.8784919593861295
+[0 0 0 ... 1 1 0]
+Precision: 88.94806645473969%
+Recall: 87.84919593839577%
+f1_score: 87.63119400910342%
+Testing: 3650, acc: 0.8741315648858137
+[0 0 0 ... 1 1 0]
+Precision: 88.66006508590257%
+Recall: 87.41315648836418%
+f1_score: 87.1645063934131%
+Testing: 3700, acc: 0.8450663168656029
+[0 0 0 ... 1 1 0]
+Precision: 86.94978606006164%
+Recall: 84.5066316863431%
+f1_score: 83.98099473619943%
+Testing: 3750, acc: 0.8747267162242969
+[0 0 0 ... 1 1 0]
+Precision: 88.65602974735668%
+Recall: 87.4726716222125%
+f1_score: 87.23394911629975%
+Testing: 3800, acc: 0.8790628188332461
+[0 0 0 ... 1 1 0]
+Precision: 88.95081820023944%
+Recall: 87.90628188310741%
+f1_score: 87.69668146972954%
+Testing: 3850, acc: 0.849038041104052
+[0 0 0 ... 1 1 0]
+Precision: 87.1380639519217%
+Recall: 84.90380411018802%
+f1_score: 84.42765951046785%
+Testing: 3900, acc: 0.8539450031601178
+[0 0 0 ... 1 1 0]
+Precision: 87.42337586970582%
+Recall: 85.39450031579459%
+f1_score: 84.96945968714385%
+Testing: 3950, acc: 0.8559247923065006
+[0 0 0 ... 1 1 0]
+Precision: 87.5158307456809%
+Recall: 85.59247923043289%
+f1_score: 85.19049071833872%
+Testing: 4000, acc: 0.874289462179697
+[0 0 0 ... 1 1 0]
+Precision: 88.64065379255368%
+Recall: 87.42894621775251%
+f1_score: 87.18532657549562%
+Testing: 4050, acc: 0.8662124083002819
+[0 0 0 ... 1 1 0]
+Precision: 88.16969147458063%
+Recall: 86.62124082981101%
+f1_score: 86.3086163133701%
+Testing: 4100, acc: 0.8637589272722491
+[0 0 0 ... 1 1 0]
+Precision: 87.99083418688394%
+Recall: 86.37589272700772%
+f1_score: 86.04594894394688%
+Testing: 4150, acc: 0.8620220570395328
+[0 0 0 ... 1 1 0]
+Precision: 87.90057005283592%
+Recall: 86.20220570373608%
+f1_score: 85.85475486590217%
+Testing: 4200, acc: 0.8609532138193997
+[0 0 0 ... 1 1 0]
+Precision: 87.79011323624788%
+Recall: 86.09532138172278%
+f1_score: 85.74446321685379%
+Testing: 4250, acc: 0.8759291648469467
+[0 0 0 ... 1 1 0]
+Precision: 88.72842577750212%
+Recall: 87.59291648447748%
+f1_score: 87.36363337507899%
+Testing: 4300, acc: 0.8738036243523638
+[0 0 0 ... 1 1 0]
+Precision: 88.5661079300602%
+Recall: 87.3803624350192%
+f1_score: 87.13884036014294%
+Testing: 4350, acc: 0.8662124083002819
+[0 0 0 ... 1 1 0]
+Precision: 88.09144293374156%
+Recall: 86.62124082981101%
+f1_score: 86.31914174728763%
+Testing: 4400, acc: 0.8604673759920665
+[0 0 0 ... 1 1 0]
+Precision: 87.7706368824977%
+Recall: 86.04673759898945%
+f1_score: 85.6900872531796%
+Testing: 4450, acc: 0.8650706894060488
+[0 0 0 ... 1 1 0]
+Precision: 88.01988835204232%
+Recall: 86.5070689403877%
+f1_score: 86.19544565550429%
+Testing: 4500, acc: 0.8633945489017492
+[0 0 0 ... 1 1 0]
+Precision: 87.90214980626246%
+Recall: 86.33945488995774%
+f1_score: 86.01537336719286%
+Testing: 4550, acc: 0.8562405868942673
+[0 0 0 ... 1 1 0]
+Precision: 87.50957662137625%
+Recall: 85.62405868920953%
+f1_score: 85.22864180980181%
+Testing: 4600, acc: 0.8697954622768646
+[0 0 0 ... 1 1 0]
+Precision: 88.3038517070843%
+Recall: 86.97954622746927%
+f1_score: 86.70821405162751%
+Testing: 4650, acc: 0.8733056405793472
+[0 0 0 ... 1 1 0]
+Precision: 88.52300898777989%
+Recall: 87.33056405771752%
+f1_score: 87.08680395000596%
+Testing: 4700, acc: 0.8552324734025508
+[0 0 0 ... 1 1 0]
+Precision: 87.40279270842122%
+Recall: 85.5232473400379%
+f1_score: 85.12460328411363%
+Testing: 4750, acc: 0.8692488947211147
+[0 0 0 ... 1 1 0]
+Precision: 88.26575500018996%
+Recall: 86.92488947189429%
+f1_score: 86.64970380340216%
+Testing: 4800, acc: 0.8671476461178984
+[0 0 0 ... 1 1 0]
+Precision: 88.13082263595446%
+Recall: 86.71476461157266%
+f1_score: 86.42298074176624%
+Testing: 4850, acc: 0.8502404897267019
+[0 0 0 ... 1 1 0]
+Precision: 87.1377682614766%
+Recall: 85.02404897245299%
+f1_score: 84.57071492549923%
+Testing: 4900, acc: 0.8421148520645534
+[0 0 0 ... 1 1 0]
+Precision: 86.67060725136241%
+Recall: 84.21148520623815%
+f1_score: 83.66831978530685%
+Testing: 4950, acc: 0.8526210950806347
+[0 0 0 ... 1 1 0]
+Precision: 87.2273893264456%
+Recall: 85.26210950784629%
+f1_score: 84.84045770340143%
+Testing: 5000, acc: 0.8649856677862655
+[0 0 0 ... 1 1 0]
+Precision: 87.99247997409071%
+Recall: 86.49856677840937%
+f1_score: 86.18923827725968%
+Testing: 5050, acc: 0.8774959918400964
+[0 0 0 ... 1 1 0]
+Precision: 88.7439909855348%
+Recall: 87.74959918379245%
+f1_score: 87.54281939155541%
+Testing: 5100, acc: 0.8654229218308654
+[0 0 0 ... 1 1 0]
+Precision: 88.01601339125625%
+Recall: 86.54229218286936%
+f1_score: 86.23715147101437%
+Testing: 5150, acc: 0.862580770540966
+[0 0 0 ... 1 1 0]
+Precision: 87.82656085114371%
+Recall: 86.25807705387942%
+f1_score: 85.93040385729803%
+Testing: 5200, acc: 0.852924743722718
+[0 0 0 ... 1 1 0]
+Precision: 87.2283293618503%
+Recall: 85.2924743720546%
+f1_score: 84.87631830149658%
+Testing: 5250, acc: 0.8573458679514504
+[0 0 0 ... 1 1 0]
+Precision: 87.49232553163483%
+Recall: 85.73458679492786%
+f1_score: 85.36146643113278%
+Testing: 5300, acc: 0.8710464946822477
+[0 0 0 ... 1 1 0]
+Precision: 88.35517509328878%
+Recall: 87.10464946800758%
+f1_score: 86.84685103091128%
+Testing: 5350, acc: 0.8650828353517321
+[0 0 0 ... 1 1 0]
+Precision: 87.96274210416519%
+Recall: 86.50828353495604%
+f1_score: 86.20467450835177%
+Testing: 5400, acc: 0.8553296409680174
+[0 0 0 ... 1 1 0]
+Precision: 87.35337824721424%
+Recall: 85.53296409658456%
+f1_score: 85.14310493414435%
+Testing: 5450, acc: 0.8545644463899676
+[0 0 0 ... 1 1 0]
+Precision: 87.32669392357975%
+Recall: 85.45644463877957%
+f1_score: 85.05641745780392%
+Testing: 5500, acc: 0.8715930622379976
+[0 0 0 ... 1 1 0]
+Precision: 88.33046678941128%
+Recall: 87.15930622358256%
+f1_score: 86.9137461039746%
+Testing: 5550, acc: 0.8773866783282225
+[0 0 0 ... 1 1 0]
+Precision: 88.69736873265254%
+Recall: 87.73866783267745%
+f1_score: 87.53640492633468%
+Testing: 5600, acc: 0.8592770733151001
+[0 0 0 ... 1 1 0]
+Precision: 87.58551781551999%
+Recall: 85.92770733129281%
+f1_score: 85.57587390173134%
+Testing: 5650, acc: 0.866321721811432
+[0 0 0 ... 1 1 0]
+Precision: 87.99740189011338%
+Recall: 86.632172180926%
+f1_score: 86.34475826149313%
+Testing: 5700, acc: 0.8567993003957005
+[0 0 0 ... 1 1 0]
+Precision: 87.4079500488194%
+Recall: 85.67993003935287%
+f1_score: 85.30893844511205%
+Testing: 5750, acc: 0.8701112568646312
+[0 0 0 ... 1 1 0]
+Precision: 88.22847985773626%
+Recall: 87.01112568624593%
+f1_score: 86.75517631394861%
+Testing: 5800, acc: 0.8818928241767382
+[0 0 0 ... 1 1 0]
+Precision: 88.98717317552612%
+Recall: 88.18928241752903%
+f1_score: 88.01840441975793%
+Testing: 5850, acc: 0.870985764953831
+[0 0 0 ... 1 1 0]
+Precision: 88.26824699010444%
+Recall: 87.09857649516591%
+f1_score: 86.85156462215728%
+Testing: 5900, acc: 0.8650828353517321
+[0 0 0 ... 1 1 0]
+Precision: 87.87734826618767%
+Recall: 86.50828353495604%
+f1_score: 86.2164906832694%
+Testing: 5950, acc: 0.8668561434214985
+[0 0 0 ... 1 1 0]
+Precision: 87.98983723418395%
+Recall: 86.68561434193266%
+f1_score: 86.40826099313259%
+Testing: 6000, acc: 0.8704149055067144
+[0 0 0 ... 1 1 0]
+Precision: 88.24303637815049%
+Recall: 87.04149055045426%
+f1_score: 86.78854961194291%
+Testing: 6050, acc: 0.8657144245272654
+[0 0 0 ... 1 1 0]
+Precision: 87.90429109960886%
+Recall: 86.57144245250934%
+f1_score: 86.28665212623827%
+Testing: 6100, acc: 0.85931351115215
+[0 0 0 ... 1 1 0]
+Precision: 87.52477235615316%
+Recall: 85.93135111499781%
+f1_score: 85.5887456756827%
+Testing: 6150, acc: 0.8586576300852501
+[0 0 0 ... 1 1 0]
+Precision: 87.46068473161046%
+Recall: 85.86576300830782%
+f1_score: 85.520606005937%
+Testing: 6200, acc: 0.8551231598914009
+[0 0 0 ... 1 1 0]
+Precision: 87.27781950927145%
+Recall: 85.5123159889229%
+f1_score: 85.12951029302259%
+Testing: 6250, acc: 0.8652042948085655
+[0 0 0 ... 1 1 0]
+Precision: 87.8926402740559%
+Recall: 86.52042948063936%
+f1_score: 86.22857744568371%
+Testing: 6300, acc: 0.8609775057107664
+[0 0 0 ... 1 1 0]
+Precision: 87.60886481930166%
+Recall: 86.09775057085945%
+f1_score: 85.77260625650305%
+Testing: 6350, acc: 0.8643905164477823
+[0 0 0 ... 1 1 0]
+Precision: 87.84245175930813%
+Recall: 86.43905164456105%
+f1_score: 86.14028747218534%
+Testing: 6400, acc: 0.8514307924036683
+[0 0 0 ... 1 1 0]
+Precision: 87.02937580315245%
+Recall: 85.14307924014963%
+f1_score: 84.72788090913429%
+Testing: 6450, acc: 0.8685565758171648
+[0 0 0 ... 1 1 0]
+Precision: 88.07352770834021%
+Recall: 86.85565758149929%
+f1_score: 86.59524275327367%
+Testing: 6500, acc: 0.8629451489114659
+[0 0 0 ... 1 1 0]
+Precision: 87.71940258534867%
+Recall: 86.2945148909294%
+f1_score: 85.98809357448053%
+Testing: 6550, acc: 0.8542607977478843
+[0 0 0 ... 1 1 0]
+Precision: 87.18276954392557%
+Recall: 85.42607977457125%
+f1_score: 85.04118748293367%
+Testing: 6600, acc: 0.85924063547805
+[0 0 0 ... 1 1 0]
+Precision: 87.45904805606133%
+Recall: 85.92406354758782%
+f1_score: 85.58954109433004%
+Testing: 6650, acc: 0.855936938252184
+[0 0 0 ... 1 1 0]
+Precision: 87.26128682104917%
+Recall: 85.59369382500121%
+f1_score: 85.22813466739562%
+Testing: 6700, acc: 0.8697954622768646
+[0 0 0 ... 1 1 0]
+Precision: 88.11759505885172%
+Recall: 86.97954622746927%
+f1_score: 86.73366425748763%
+Testing: 6750, acc: 0.870840013605631
+[0 0 0 ... 1 1 0]
+Precision: 88.22119281642198%
+Recall: 87.08400136034592%
+f1_score: 86.84105404018692%
+Testing: 6800, acc: 0.8643176407736823
+[0 0 0 ... 1 1 0]
+Precision: 87.7684782226656%
+Recall: 86.43176407715106%
+f1_score: 86.14213697594144%
+Testing: 6850, acc: 0.8572487003859838
+[0 0 0 ... 1 1 0]
+Precision: 87.34629509170297%
+Recall: 85.72487003838118%
+f1_score: 85.3708261415973%
+Testing: 6900, acc: 0.853884273431701
+[0 0 0 ... 1 1 0]
+Precision: 87.1528628775856%
+Recall: 85.38842734295292%
+f1_score: 85.00093497675589%
+Testing: 6950, acc: 0.8549288247604675
+[0 0 0 ... 1 1 0]
+Precision: 87.18512649820697%
+Recall: 85.49288247582957%
+f1_score: 85.11994162543574%
+Testing: 7000, acc: 0.8564349220252006
+[0 0 0 ... 1 1 0]
+Precision: 87.24369400815178%
+Recall: 85.64349220230287%
+f1_score: 85.28956510277078%
+Testing: 7050, acc: 0.8562162950029006
+[0 0 0 ... 1 1 0]
+Precision: 87.27148028233472%
+Recall: 85.62162950007287%
+f1_score: 85.25968210396485%
+Testing: 7100, acc: 0.8523417383299181
+[0 0 0 ... 1 1 0]
+Precision: 87.01203748459537%
+Recall: 85.23417383277462%
+f1_score: 84.83861728976426%
+Testing: 7150, acc: 0.8666253704535152
+[0 0 0 ... 1 1 0]
+Precision: 87.92034606485784%
+Recall: 86.66253704513434%
+f1_score: 86.39097383113563%
+Testing: 7200, acc: 0.8710707865736144
+[0 0 0 ... 1 1 0]
+Precision: 88.21274649698606%
+Recall: 87.10707865714424%
+f1_score: 86.8691026174262%
+Testing: 7250, acc: 0.8537871058662344
+[0 0 0 ... 1 1 0]
+Precision: 87.1150660278883%
+Recall: 85.37871058640626%
+f1_score: 84.99493914251303%
+Testing: 7300, acc: 0.8664553272139486
+[0 0 0 ... 1 1 0]
+Precision: 87.90519212250726%
+Recall: 86.64553272117767%
+f1_score: 86.3732102822473%
+Testing: 7350, acc: 0.8533255599302678
+[0 0 0 ... 1 1 0]
+Precision: 87.07717833705321%
+Recall: 85.3325559928096%
+f1_score: 84.94577320487441%
+Testing: 7400, acc: 0.8563863382424672
+[0 0 0 ... 1 1 0]
+Precision: 87.27375754350102%
+Recall: 85.63863382402954%
+f1_score: 85.27945029155603%
+Testing: 7450, acc: 0.8639897002402324
+[0 0 0 ... 1 1 0]
+Precision: 87.75669618596866%
+Recall: 86.39897002380606%
+f1_score: 86.10535388577472%
+Testing: 7500, acc: 0.8547466355752176
+[0 0 0 ... 1 1 0]
+Precision: 87.12559151504928%
+Recall: 85.47466355730458%
+f1_score: 85.10708364500933%
+Testing: 7550, acc: 0.8414589709976535
+[0 0 0 ... 1 1 0]
+Precision: 86.429238194286%
+Recall: 84.14589709954818%
+f1_score: 83.6258313790388%
+Testing: 7600, acc: 0.8603823543722832
+[0 0 0 ... 1 1 0]
+Precision: 87.45457178596887%
+Recall: 86.03823543701112%
+f1_score: 85.72467141763016%
+Testing: 7650, acc: 0.8654715056135988
+[0 0 0 ... 1 1 0]
+Precision: 87.82073423534919%
+Recall: 86.5471505611427%
+f1_score: 86.26995340728078%
+Testing: 7700, acc: 0.852888305885668
+[0 0 0 ... 1 1 0]
+Precision: 87.03404131948116%
+Recall: 85.28883058834961%
+f1_score: 84.90024899168569%
+Testing: 7750, acc: 0.862799397563266
+[0 0 0 ... 1 1 0]
+Precision: 87.62570120245414%
+Recall: 86.27993975610941%
+f1_score: 85.98429916196699%
+Testing: 7800, acc: 0.8644269542848323
+[0 0 0 ... 1 1 0]
+Precision: 87.7361562747906%
+Recall: 86.44269542826605%
+f1_score: 86.15953977141992%
+Testing: 7850, acc: 0.8587669435964002
+[0 0 0 ... 1 1 0]
+Precision: 87.42072724689652%
+Recall: 85.87669435942283%
+f1_score: 85.53921950554685%
+Testing: 7900, acc: 0.8479813438296022
+[0 0 0 ... 1 1 0]
+Precision: 86.6997959948756%
+Recall: 84.79813438274304%
+f1_score: 84.36612252007258%
+Testing: 7950, acc: 0.8593013652064667
+[0 0 0 ... 1 1 0]
+Precision: 87.41736828433227%
+Recall: 85.93013652042949%
+f1_score: 85.60269861237451%
+Testing: 8000, acc: 0.8597629111424332
+[0 0 0 ... 1 1 0]
+Precision: 87.42707259661955%
+Recall: 85.97629111402614%
+f1_score: 85.65568514792604%
+Testing: 8050, acc: 0.8474347762738523
+[0 0 0 ... 1 1 0]
+Precision: 86.68657000566841%
+Recall: 84.74347762716805%
+f1_score: 84.30286223838414%
+Testing: 8100, acc: 0.8634795705215325
+[0 0 0 ... 1 1 0]
+Precision: 87.6478218401551%
+Recall: 86.34795705193606%
+f1_score: 86.06100407642774%
+Testing: 8150, acc: 0.8552203274568675
+[0 0 0 ... 1 1 0]
+Precision: 87.14177062247452%
+Recall: 85.52203274546957%
+f1_score: 85.16079860843874%
+Testing: 8200, acc: 0.864013992131599
+[0 0 0 ... 1 1 0]
+Precision: 87.65891741444415%
+Recall: 86.40139921294272%
+f1_score: 86.12214939661708%
+Testing: 8250, acc: 0.8597872030337999
+[0 0 0 ... 1 1 0]
+Precision: 87.45195136569531%
+Recall: 85.9787203031628%
+f1_score: 85.65495224908145%
+Testing: 8300, acc: 0.8668197055844485
+[0 0 0 ... 1 1 0]
+Precision: 87.89158523887542%
+Recall: 86.68197055822766%
+f1_score: 86.41775897188153%
+Testing: 8350, acc: 0.8785526891145462
+[0 0 0 ... 1 1 0]
+Precision: 88.62936503965769%
+Recall: 87.85526891123743%
+f1_score: 87.68087682003255%
+Testing: 8400, acc: 0.8627022299977993
+[0 0 0 ... 1 1 0]
+Precision: 87.58135074464221%
+Recall: 86.27022299956275%
+f1_score: 85.97926086744168%
+Testing: 8450, acc: 0.8530583491252346
+[0 0 0 ... 1 1 0]
+Precision: 87.02285839066761%
+Recall: 85.30583491230628%
+f1_score: 84.92207797075505%
+Testing: 8500, acc: 0.869261040666798
+[0 0 0 ... 1 1 0]
+Precision: 88.03477306724982%
+Recall: 86.92610406646261%
+f1_score: 86.6829038080508%
+Testing: 8550, acc: 0.8520502356335181
+[0 0 0 ... 1 1 0]
+Precision: 86.9399004912995%
+Recall: 85.20502356313463%
+f1_score: 84.81468294950166%
+Testing: 8600, acc: 0.8457950736066027
+[0 0 0 ... 1 1 0]
+Precision: 86.58672857892904%
+Recall: 84.57950736044309%
+f1_score: 84.12195799457986%
+Testing: 8650, acc: 0.8572851382230338
+[0 0 0 ... 1 1 0]
+Precision: 87.2505289517138%
+Recall: 85.72851382208619%
+f1_score: 85.38904664389194%
+Testing: 8700, acc: 0.8616576786690329
+[0 0 0 ... 1 1 0]
+Precision: 87.54266215756552%
+Recall: 86.16576786668611%
+f1_score: 85.86203727181606%
+Testing: 8750, acc: 0.861439051646733
+[0 0 0 ... 1 1 0]
+Precision: 87.53392992476384%
+Recall: 86.1439051644561%
+f1_score: 85.83758075664136%
+Testing: 8800, acc: 0.8551474517827675
+[0 0 0 ... 1 1 0]
+Precision: 87.10131435846013%
+Recall: 85.51474517805956%
+f1_score: 85.15813560597027%
+Testing: 8850, acc: 0.8483335762544189
+[0 0 0 ... 1 1 0]
+Precision: 86.74433572346332%
+Recall: 84.8333576252247%
+f1_score: 84.40144785696637%
+Testing: 8900, acc: 0.8534713112784679
+[0 0 0 ... 1 1 0]
+Precision: 87.03484124253453%
+Recall: 85.3471311276296%
+f1_score: 84.96929988916683%
+Testing: 8950, acc: 0.8705120730721811
+[0 0 0 ... 1 1 0]
+Precision: 88.08175573629703%
+Recall: 87.05120730700092%
+f1_score: 86.82231604801129%
+Testing: 9000, acc: 0.8625443327039161
+[0 0 0 ... 1 1 0]
+Precision: 87.55963914199839%
+Recall: 86.25443327017442%
+f1_score: 85.96384009102115%
+Testing: 9050, acc: 0.8678399650218483
+[0 0 0 ... 1 1 0]
+Precision: 87.90954152172289%
+Recall: 86.78399650196764%
+f1_score: 86.53456949811456%
+Testing: 9100, acc: 0.8547830734122676
+[0 0 0 ... 1 1 0]
+Precision: 87.10289779264787%
+Recall: 85.47830734100957%
+f1_score: 85.11474155546384%
+Testing: 9150, acc: 0.865884467766832
+[0 0 0 ... 1 1 0]
+Precision: 87.77193837507353%
+Recall: 86.58844677646601%
+f1_score: 86.32528970611087%
+Testing: 9200, acc: 0.8597021814140166
+[0 0 0 ... 1 1 0]
+Precision: 87.38011365450777%
+Recall: 85.97021814118447%
+f1_score: 85.65535391582416%
+Testing: 9250, acc: 0.8512607491641017
+[0 0 0 ... 1 1 0]
+Precision: 86.91607661605943%
+Recall: 85.12607491619298%
+f1_score: 84.72439267868485%
+Testing: 9300, acc: 0.871204391975407
+[0 0 0 ... 1 1 0]
+Precision: 88.10740708226447%
+Recall: 87.12043919739591%
+f1_score: 86.89947325777709%
+Testing: 9350, acc: 0.8528032842658846
+[0 0 0 ... 1 1 0]
+Precision: 86.9964672521158%
+Recall: 85.28032842637128%
+f1_score: 84.89571250359631%
+Testing: 9400, acc: 0.8567264247216005
+[0 0 0 ... 1 1 0]
+Precision: 87.22544781620117%
+Recall: 85.67264247194286%
+f1_score: 85.32669118901795%
+Testing: 9450, acc: 0.8657387164186321
+[0 0 0 ... 1 1 0]
+Precision: 87.75646958028341%
+Recall: 86.57387164164602%
+f1_score: 86.3104285828065%
+Testing: 9500, acc: 0.8620463489308995
+[0 0 0 ... 1 1 0]
+Precision: 87.56199122592989%
+Recall: 86.20463489287276%
+f1_score: 85.90495615973643%
+Testing: 9550, acc: 0.8746538405494729
+[0 0 0 ... 1 1 0]
+Precision: 88.33899644348269%
+Recall: 87.46538405480251%
+f1_score: 87.26862968446177%
+Testing: 9600, acc: 0.8704027595610311
+[0 0 0 ... 1 1 0]
+Precision: 88.12068239712151%
+Recall: 87.04027595588593%
+f1_score: 86.80406889224105%
+Testing: 9650, acc: 0.8693582082322646
+[0 0 0 ... 1 1 0]
+Precision: 88.0042896910833%
+Recall: 86.93582082300928%
+f1_score: 86.69857125459083%
+Testing: 9700, acc: 0.8609046300366664
+[0 0 0 ... 1 1 0]
+Precision: 87.5070274153872%
+Recall: 86.09046300344944%
+f1_score: 85.7785790561489%
+Testing: 9750, acc: 0.8570786571464171
+[0 0 0 ... 1 1 0]
+Precision: 87.21574712818972%
+Recall: 85.70786571442453%
+f1_score: 85.36975172235043%
+Testing: 9800, acc: 0.8657144245272654
+[0 0 0 ... 1 1 0]
+Precision: 87.78675513239736%
+Recall: 86.57144245250934%
+f1_score: 86.30324149929235%
+Testing: 9850, acc: 0.8633216732276492
+[0 0 0 ... 1 1 0]
+Precision: 87.62539637209035%
+Recall: 86.33216732254773%
+f1_score: 86.04568641509765%
+Testing: 9900, acc: 0.8624107273013993
+[0 0 0 ... 1 1 0]
+Precision: 87.59025997857064%
+Recall: 86.24107272992275%
+f1_score: 85.94371969114007%
+Testing: 9950, acc: 0.8516008356432349
+[0 0 0 ... 1 1 0]
+Precision: 86.8732613942786%
+Recall: 85.1600835641063%
+f1_score: 84.77122306959642%
+Generating test predictions...
+[0 0 0 ... 1 1 0]
+Precision: 88.09709973936415%
+Recall: 87.09250352232425%
+f1_score: 86.86833688378367%
+Confusion Matrix:
+[[43655  1677]
+ [ 8950 28050]]
+
+
